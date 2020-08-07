@@ -8,3 +8,7 @@ To run on webcam : python ObjectTracker.py --input camera --confidence 0.5 --thr
 
 #note : confidence and threshold are optional arguements
 	you need to rename output.avi eveytime after the code finishes the process or gets terminated, else in the next run of the code, the file output.avi will get overwritten.
+
+#credits : This code is written after reading two other codes downloaded from very helpful website for such OpenCV projects: https://www.pyimagesearch.com/
+		1) Object Detection using YOLO : https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
+		2) Object Tracking : https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/
