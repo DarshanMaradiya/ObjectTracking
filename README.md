@@ -4,7 +4,7 @@
 2. Creating a unique ID for each of the initial detections  
 3. And then tracking each of the objects as they move around frames in a video, maintaining the assignment of unique IDs  
   
-As descibed in first step, we should detect the from the each frame of video. Here *YOLO object detection* is used to detect the object in image/video frame. Implemention of yolo is in *ObjectTracker.py*. Next two steps are implemented in *CentroidTracking/centroidtracker.py*.  
+As descibed in first step, we should detect the objects in each frame of video. Here *YOLO object detection* is used to detect the object in image/video-frames. Implemention of yolo is in *ObjectTracker.py*. Next two steps are implemented in *CentroidTracking/centroidtracker.py*.  
   
 To run on video file:  
   python ObjectTracker.py --input videos/car_chase_01.mp4 --confidence 0.5 --threshold 0.3  
